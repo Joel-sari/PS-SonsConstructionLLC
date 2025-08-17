@@ -1,17 +1,25 @@
 @import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-.dark {
-  --color-primary: #93c5fd; /* lighter blue for dark mode */
-}
+/* 1) Declare the dark variant mapping (no body) */
+@custom-variant dark (&:where(.dark, .dark *));
 
-* {
-  font-family: "Manrope", "sans-serif";
-  font-weight: 500;
-}
+/* 2) Light defaults */
 :root {
-  --color-primary: #ffffff;
+  --color-primary: #5044e5;
+  background-color: white;
+  color: black;
+}
+
+/* 3) Dark overrides using the declared selector */
+:root:where(.dark, .dark *) {
+  --color-primary: #93c5fd;
+  background-color: black;
+  color: white;
+}
+
+/* optional font defaults */
+* {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
 }
