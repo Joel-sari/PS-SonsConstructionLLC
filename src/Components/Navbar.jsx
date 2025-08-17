@@ -6,10 +6,10 @@ const Navbar = ({ theme, setTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70">
+    <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 xl:px-40 py-0 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70">
       <img
         src={theme === "dark" ? assets.pslogodark : assets.pslogolight}
-        className="w-32 sm:w-40"
+        className="w-32 sm:w-30"
         alt=""
       />
       <div
@@ -65,10 +65,7 @@ const Navbar = ({ theme, setTheme }) => {
         />
         <a
           href="#contact-us"
-          className="text-sm max-sm:hidden flex items-center gap-2 
-             bg-gradient-to-r from-primary to-blue-400/80 text-white 
-             px-6 py-2 rounded-full shadow-md border border-blue-500/80
-             hover:opacity-90 hover:scale-105 transition"
+          className="text-sm max-sm:hidden flex items-center gap-2 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-gray-90 dark:text-white px-6 py-2 rounded-full shadow-md border border-blue-500/80 hover:opacity-90 hover:scale-105 transition"
         >
           Connect <img src={assets.arrow_icon} width={14} alt="" />
         </a>

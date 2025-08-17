@@ -29,8 +29,9 @@ import google_logo from "./google_logo.svg";
 import menu_icon_dark from "./menu_icon_dark.svg";
 import sun_icon from "./sun_icon.svg";
 import moon_icon from "./moon_icon.svg";
-import pslogolight from "./PSandSonsLogoLight.png";
-import pslogodark from "./PsandSonsLogoDark.png";
+import pslogodark from "./PS_Logo_Dark.png";
+import pslogolight from "./PS_Logo_Light.png";
+import pswinterroof from "./PS2020imgWinter.jpg";
 
 export const company_logos = [
   microsoft_logo,
@@ -43,6 +44,7 @@ export const company_logos = [
 
 const assets = {
   logo,
+  pswinterroof,
   arrow_icon,
   group_profile,
   bgImage1,
