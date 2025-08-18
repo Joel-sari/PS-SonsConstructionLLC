@@ -65,7 +65,7 @@ const Navbar = ({ theme, setTheme }) => {
         />
         <a
           href="#contact-us"
-          className="text-sm max-sm:hidden flex items-center gap-2 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-gray-90 dark:text-white px-6 py-2 rounded-full shadow-md border border-blue-500/80 hover:opacity-90 hover:scale-105 transition"
+          className="text-sm max-sm:hidden flex items-center gap-2 bg-gradient-to-r from-[#3B82F6] to-[#2563EB] text-gray-90 dark:text-white px-6 py-2 rounded-full shadow-md border border-[#3B82F6] hover:opacity-90 hover:scale-105 transition"
         >
           Connect <img src={assets.arrow_icon} width={14} alt="" />
         </a>

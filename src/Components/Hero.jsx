@@ -16,7 +16,7 @@ const Hero = () => {
         <span className="bg-gradient-to-r from-[#5044E5] to-[#3B82F6] bg-clip-text text-transparent">
           &nbsp;stronger&nbsp;
         </span>
-        <span classname>families</span>
+        <span>families</span>
       </h1>
       <p className="text-sm sm:text-lg font-medium text-gray-600 dark:text-gray-300 sm:max-w-lg pb-3 italic">
         From shingles to skylights, metal to siding, PS & Sons Construction
