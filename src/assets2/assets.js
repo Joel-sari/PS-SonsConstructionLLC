@@ -32,6 +32,7 @@ import moon_icon from "./moon_icon.svg";
 import pslogodark from "./PS_Logo_Dark.png";
 import pslogolight from "./PS_Logo_Light.png";
 import pswinterroof from "./PS2020imgWinter.jpg";
+import psimage1 from "./PS2020img.jpg";
 
 export const company_logos = [
   microsoft_logo,
@@ -71,6 +72,7 @@ const assets = {
   moon_icon,
   pslogodark,
   pslogolight,
+  psimage1,
 };
 
 export default assets;
