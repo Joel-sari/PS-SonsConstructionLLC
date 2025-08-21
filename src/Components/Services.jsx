@@ -3,6 +3,7 @@ import { Home, Layers, FileText, Ruler } from "lucide-react";
 import assets from "../assets2/assets";
 import Title from "./Title.jsx";
 import ServiceCard from "./ServiceCard.jsx";
+import { motion } from "motion/react";
 
 const Services = () => {
   const servicesData = [
@@ -32,7 +33,11 @@ const Services = () => {
     },
   ];
   return (
-    <div
+    <motion.div
+      initial="hidden"
+      whileInview="visible"
+      viewport={{ once: true }}
+      transition={{ staggerChildren: 0.2 }}
       id="services"
       className="relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-4 xl:px-40 pt-30 text-gray-700 dark:text-white"
     >
@@ -50,7 +55,7 @@ const Services = () => {
           <ServiceCard key={index} service={service} index={index} />
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 };
 
