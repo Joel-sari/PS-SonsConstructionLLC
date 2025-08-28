@@ -20,10 +20,10 @@ A modern, responsive website built with React and Tailwind CSS for PS & Sons Con
 📂 Project Structure
 
 src/
- ├── assets2/        # Images, logos, and icons
- ├── Components/     # Reusable React components (Navbar, Hero, Services, ContactUs, etc.)
- ├── App.jsx         # Main application wrapper
- └── index.css       # Tailwind and global styles****
+ assets2/        # Images, logos, and icons
+ Components/     # Reusable React components (Navbar, Hero, Services, ContactUs, etc.)
+ App.jsx         # Main application wrapper
+ index.css       # Tailwind and global styles****
 
 ⚙️ Installation & Setup
 	1.	Clone the repository
